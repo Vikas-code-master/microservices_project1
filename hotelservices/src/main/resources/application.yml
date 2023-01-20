@@ -1,0 +1,29 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 7341
+
+  application:
+    name: hotelservice
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  #     this is used to tell config server that this service is using config server
+  config:
+    import: optional:configserver:http://localhost:8085
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka

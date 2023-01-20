@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.vg.springboot.KafkaTopicConfug&apos; to &apos;KafkaTopicConfig&apos;&#x0D;&#x0A;- Original project: &apos;kafka-producer-wikimedia&apos;&#x0D;&#x0A;- Original element: &apos;com.vg.springboot.KafkaTopicConfug&apos;&#x0D;&#x0A;- Renamed element: &apos;com.vg.springboot.KafkaTopicConfig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;KafkaTopicConfug&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.vg.springboot{KafkaTopicConfug.java[KafkaTopicConfug" matchStrategy="1" name="KafkaTopicConfig" qualified="false" references="true" similarDeclarations="false" stamp="1673104114072" textual="false" version="1.0"/>
+</session>

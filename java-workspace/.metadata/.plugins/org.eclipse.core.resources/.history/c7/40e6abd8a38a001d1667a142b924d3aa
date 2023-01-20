@@ -1,0 +1,5 @@
+package com.vg.demo.kafka;
+
+public class KafkaConsumer {
+
+}
